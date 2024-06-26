@@ -18,6 +18,7 @@ function App() {
           Learn React
         </a>
         <h1>shreya</h1>
+        <h1>Janna</h1>
       </header>
     </div>
   );
