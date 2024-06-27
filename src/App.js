@@ -7,6 +7,7 @@ import About from './pages/About';
 import Institution from './pages/Institution';
 import NewsandEvents from './pages/NewsandEvents';
 import Contact from './pages/Contact';
+import Footer from './components/Header/Footer/Footer';
 
 function App() {
   return (
@@ -20,9 +21,8 @@ function App() {
       <Route path='/institution' element={<Institution/>}/>
       <Route path='/newsandevents' element={<NewsandEvents/>}/>
       <Route path='/contact' element={<Contact/>}/>
-
     </Routes>
-
+    <Footer/>
     </>
   )
 

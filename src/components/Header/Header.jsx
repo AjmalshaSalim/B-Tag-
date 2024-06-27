@@ -17,7 +17,7 @@ function Header() {
   };
 
   return (
-    <>
+    <div className='overflow-x-hidden'>
       <div className='min-h-[80px] grid sm:grid-cols-12 sm:w-auto w-full shadow-lg'>
         {/* titleSection */}
         <div className='flex sm:justify-start items-center sm:p-4 justify-between p-4 sm:col-span-5'>
@@ -37,25 +37,25 @@ function Header() {
         </div>
 
         {/* navlinkssection */}
-        <div className={`mb-5 md:mb-0 flex-col gap-5 space-y-4 sm:space-y-0 sm:flex-row sm:space-x-10 md:justify-center justify-start items-center sm:flex ${isOpen ? 'flex' : 'hidden'} sm:block sm:p-4 sm:col-span-7`}>
+        <div className={`mb-5 md:mb-0 flex-col gap-0 space-y-4 sm:space-y-0 sm:flex-row sm:space-x-5 md:space-x-10 md:justify-center justify-start items-center sm:flex ${isOpen ? 'flex' : 'hidden'} sm:block sm:p-4 sm:col-span-7`}>
           <Link to="/" onClick={closeMenu}>
-            <h3 className={`text-lg uppercase font-light font_abeezee hover:text-[#73AB3A] ${location.pathname==="/"?"text-[#73AB3A] underline":" "}`}>Home</h3>
+            <h3 className={`text-sm lg:text-lg uppercase font-light font_abeezee hover:text-[#73AB3A] ${location.pathname==="/"?"text-[#73AB3A] underline":" "}`}>Home</h3>
           </Link>
           <Link to='/about' onClick={closeMenu}>
-            <h3 className={`text-lg uppercase font-light font_abeezee hover:text-[#73AB3A]  ${location.pathname==='/about'?"text-[#73AB3A] underline":" "}`}>About</h3>
+            <h3 className={`text-sm lg:text-lg uppercase font-light font_abeezee hover:text-[#73AB3A]  ${location.pathname==='/about'?"text-[#73AB3A] underline":" "}`}>About</h3>
           </Link>
           <Link to='/institution' onClick={closeMenu}>
-            <h3 className={`text-lg uppercase font-light font_abeezee hover:text-[#73AB3A] ${location.pathname==='/institution'?"text-[#73AB3A] underline":" "}`}>institutions</h3>
+            <h3 className={`text-sm lg:text-lg uppercase font-light font_abeezee hover:text-[#73AB3A] ${location.pathname==='/institution'?"text-[#73AB3A] underline":" "}`}>institutions</h3>
           </Link>
           <Link to='/newsandevents' onClick={closeMenu}>
-            <h3 className={`text-lg uppercase font-light font_abeezee hover:text-[#73AB3A] ${location.pathname==='/newsandevents'?"text-[#73AB3A] underline":" "}`}>news & events</h3>
+            <h3 className={`text-sm lg:text-lg uppercase font-light font_abeezee hover:text-[#73AB3A] ${location.pathname==='/newsandevents'?"text-[#73AB3A] underline":" "}`}>events</h3>
           </Link>
           <Link to='/contact' onClick={closeMenu}>
-            <h3 className={`text-lg uppercase font-light font_abeezee hover:text-[#73AB3A] ${location.pathname==='/contact'?"text-[#73AB3A] underline":" "}`}>Contact</h3>
+            <h3 className={`text-sm lg:text-lg uppercase font-light font_abeezee hover:text-[#73AB3A] ${location.pathname==='/contact'?"text-[#73AB3A] underline":" "}`}>Contact</h3>
           </Link>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
