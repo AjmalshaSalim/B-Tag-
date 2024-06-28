@@ -10,6 +10,11 @@
   font-family: "ABeeZee", sans-serif;
 }
 
+.underline-custom {
+  text-decoration-color:  #73AB3A;
+  text-underline-offset: 14px;
+}
+
 
 .underline-with-space {
   display: inline-block;
