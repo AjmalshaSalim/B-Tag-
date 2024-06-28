@@ -2,22 +2,17 @@ import React from 'react'
 import GalleryTeam from './GalleryTeam';
 import icon from '../../assets/abouticon.png'
 
-
-
-
 function TeamMembers() {
-
-   
-  
+ 
   return (
     <div className=' mx-auto container overflow-hidden '>
 
 
         <div className='min-h-[100px] p-6 lg:mt-[0px] mt-[20px] '>
-            <h1 className='text-[#585858] font_poppins font-semibold 2xl:text-[47px] lg:text-[40px] text-[12px] sm:text-[33px]  md:ml-[100px] ml-[40px]  '>Meet the TEAM</h1>
+            <h1 className='text-[#585858] font_poppins font-semibold  2xl:text-[38px] lg:text-[35px] text-[12px] sm:text-[30px] md:ml-[120px] ml-[40px]  '>Meet the TEAM</h1>
         </div>
 
-
+<div className='px-[60px]'>
         <div className=' min-h-[800px] border-[1px] border-[#9C9797]  '>
            <div className='  mx-[100px] pt-[60px] mb-[50px]  '> 
             <p className='ml-[50px] text-black font_poppins text-[18px] font-light'>
@@ -28,6 +23,7 @@ function TeamMembers() {
            <div className=' mx-[100px]  flex justify-center items-center '>
                 <GalleryTeam/>
            </div>
+        </div>
         </div>
 
         <div className='min-h-[200px] flex justify-center items-center'>

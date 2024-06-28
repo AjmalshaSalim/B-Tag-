@@ -1,8 +1,11 @@
 import React from 'react'
+import Event from '../components/events/Event'
 
 function NewsandEvents() {
   return (
-    <div>NewsandEvents</div>
+    <>
+    <Event/>
+    </>
   )
 }
 
