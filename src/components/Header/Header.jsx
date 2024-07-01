@@ -18,6 +18,12 @@ function Header() {
 
   return (
     <div className='overflow-x-hidden'>
+      <div className='w-full hidden md:inline-block '>
+        <div className='w-full h-[25px] bg-[#81D002] text-white font_poppins text-[12px] flex items-center px-32 justify-end' >
+          <p>+953 012 3654 896 support@thivi.com </p>
+        </div> 
+      </div>
+      {/* MainHeader */}
       <div className='min-h-[80px] grid sm:grid-cols-12 sm:w-auto w-full shadow-lg'>
         {/* titleSection */}
         <div className='flex sm:justify-start items-center sm:p-4 justify-between p-4 sm:col-span-5'>
