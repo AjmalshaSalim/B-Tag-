@@ -12,13 +12,13 @@ const images = [
 
 function GalleryTeam() {
 
-    const [selectedImage, setSelectedImage] = useState(images[0]);
+    const [selectedImage, setSelectedImage] = useState(null);
 
     const handleImageClick = (image) => {
       setSelectedImage(image);
     };
   return (
-    <div className="flex overflow-x-auto space-x-4 py-4">
+    <div className="flex xl:flex-row flex-col  overflow-x-auto space-x-4 py-4 ">
     {images.map((image) => (
       <div
         key={image.id}
@@ -42,6 +42,31 @@ function GalleryTeam() {
       </div>
     ))}
   </div>
+
+
+//   <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-6 gap-4 py-4 bg-pink-500">
+//   {images.map((image) => (
+//     <div
+//       key={image.id}
+//       className={`relative transition-all duration-300 ${
+//         selectedImage?.id === image.id ? 'md:col-span-2 xl:col-span-1 w-full' : 'w-full'
+//       } h-[400px]`}
+//       onClick={() => handleImageClick(image)}
+//     >
+//       <img
+//         src={image.src}
+//         alt={image.title}
+//         className="cursor-pointer w-full h-full object-cover"
+//       />
+//       {selectedImage?.id === image.id && (
+//         <div className="absolute bottom-0 w-full h-full flex flex-col items-start justify-end p-4 bg-gradient-to-t from-black to-transparent">
+//           <h2 className="text-xl font-bold text-white">{selectedImage.title}</h2>
+//           <p className="mt-1 text-white">{selectedImage.description}</p>
+//         </div>
+//       )}
+//     </div>
+//   ))}
+// </div>
 
 //   <div className="flex overflow-x-auto space-x-4 py-4">
 //   {images.map((image) => (

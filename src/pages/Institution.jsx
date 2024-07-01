@@ -9,7 +9,7 @@ function Institution() {
                 <h1 className='md:text-3xl sm:text-2xl text-xl font-bold   text-[#585858] underline-with-space font_poppins ml-[90px]'>Institutions</h1>
               </div>
 
-              <div className='px-[50px] '>
+              <div className='md:px-[80px] px-[20px]  '>
                 <InstitutionCards/>
               </div>
          </div>
