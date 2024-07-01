@@ -1,5 +1,5 @@
 import React from 'react'
-import BtagLogo from '../../../assets/BtagLogo.png'
+import logo from '../../../assets/logo.png'
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import YouTubeIcon from '@mui/icons-material/YouTube';
@@ -15,7 +15,7 @@ const Footer = () => {
         <div className='w-full md:w-[40%] lg:w-[28%] lg:me-8 lg:ms-8'>
            <div className='flex  leading-6 items-center'>
             
-                    <img className='w-14 h-10 ' src={BtagLogo} alt="btaglogo"/>
+                    <img className='w-14 h-10 me-1' src={logo} alt="btaglogo"/>
                     <h1 className='font_poppins text-white font-semibold text-[15px]'>BTAG Global Educational Trust</h1>
             
            </div>

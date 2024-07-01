@@ -1,12 +1,12 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-
+  
 const cardData = [
     {
       id:1,
       imageUrl: 'https://images.pexels.com/photos/6457579/pexels-photo-6457579.jpeg?auto=compress&cs=tinysrgb&w=600',
-      title: 'Cert IV in Leadership & Management ',
+      title: 'Cert IV in Leadership & Management ', 
       description: 'Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country... ',
     },
     {
