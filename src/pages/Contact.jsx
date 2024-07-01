@@ -111,7 +111,7 @@ return (
 
       {/* contact banner */}
       <div className='bg-white w-full md:px-40 px-8 py-7'>
-        <p className='font_poppins font-semibold capitalize underline underline-custom text-[#585858] sm:text-2xl md:text-3xl text-xl md:mb-7'>contact</p>
+        <p className='font_poppins font-bold capitalize underline-with-space text-[#585858]  md:text-3xl text-2xl md:mb-7'>contact</p>
       </div>
       <div className='w-full  flex flex-wrap items-center md:justify-around justify-start px-16 md:px-44 py-24 bg-[#364E09] opacity-70%' style={{ backgroundImage: `url(${banner_3})`,backgroundSize:"cover",backgroundPosition: "65% 35%"}}>
 
@@ -133,7 +133,7 @@ return (
       </div>
 
       {/* contact form */}
-      <div className='w-full bg-white text-center py-16 mb-11'>
+      <div className='w-full bg-white text-center py-10 md:py-16 md:mb-11'>
         <h1 className='font_poppins font-bold text-xl md:text-3xl sm:text-2xl text-[#30326B]'>LEAVE US YOUR INFO</h1>
         <p className='font_poppins font-normal text-[15px] md:text-[22px] text-[#A0A0A0] mt-3 mb-12'>AND WE WILL GET BACK TO YOU.</p>
 

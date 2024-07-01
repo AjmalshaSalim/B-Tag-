@@ -56,20 +56,20 @@ function Home() {
 
 
       {/* About BTAG */}
-      <div className='w-full  flex flex-wrap items-center px-10  lg:px-36 py-24 mx-auto lg:ms-5 md:pt-48'>
+      <div className='w-full  flex flex-wrap items-center px-5  lg:px-36 py-24 mx-auto lg:ms-5 md:pt-48'>
 
           <div className='flex items-center mb-4'>
 
-            <div className='w-[30px] h-[30px] bg-[#30326B]'>
+            <div className='w-[20px] h-[20px] md:w-[30px] md:h-[30px] bg-[#30326B]'>
             </div>
-            <h1 className='font_poppins font-semibold text-[27px] text-[#585858] ms-2'>About BTAG Global Educational Trust</h1>
+            <h1 className='font_poppins font-semibold text-[20px] md:text-[27px] text-[#585858] ms-2'>About BTAG Global Educational Trust</h1>
 
           </div>
 
           <divs className='flex flex-wrap gap-4' >
 
             <div className=' w-full lg:w-1/2'>
-                      <p className='font_poppins text-[#585858] leading-7 justify-start text-[18px] mb-6'>BTAG Global Educational Trust is an initiative to provide education and training by running offline programmes and institutions across India and online educational services across the Globe. <br />
+                      <p className='font_poppins text-[#585858] leading-7 justify-start md:text-[18px] mb-6'>BTAG Global Educational Trust is an initiative to provide education and training by running offline programmes and institutions across India and online educational services across the Globe. <br />
               Trust Director: Mohammed Abdul Salam: Educational Consultant, CBSE Resource Person & Master Trainer, CBSE school Principal <br />
               Joint Director: Mr Biju s Pillai: CBSE school Principal <br />
                         Trustee:  Ms Bushra B.A.:CBSE school Principal</p>
@@ -93,13 +93,13 @@ function Home() {
 
           <div className='text-white md:w-[45%] w-full '>
 
-            <h1 className='font_poppins text-4xl font-bold mb-5'>Meet our founder</h1>
-            <p className='font_poppins font-normal leading-7 mb-5'>
+            <h1 className='font_poppins text-2xl sm:text-2xl md:text-3xl font-bold mb-5'>Meet our founder</h1>
+            <p className='font_poppins md:text-[18px]  font-normal leading-7 mb-5'>
             “I think you're better off finding the money to hire someone than actually find a co-founder. The main reason? You probably won't find someone as passionate as you are about the organization you're building. And keep in mind, I have no clue who you are or what you're building so that's no judgment on you or the idea, just the reality I've observed over 20 years of startups.”
             </p>
             <p className='font-bold'>Jason Hound</p>
             <p className='text-[#838383] mb-8'>Founder of Trustco.</p>
-            <button className='text-white font-bold font_poppins bg-[#81D002] rounded-full px-5 py-4'>
+            <button className='text-white font-bold font_poppins bg-[#81D002] rounded-full md:px-5 px-3 md:py-4 py-2'>
             See Team Behind Our Success
             </button>
           </div>
@@ -110,9 +110,9 @@ function Home() {
       </div>
 
       {/* Play Button */}
-      <div className='w-full h-[400px] text-white mt-24 ' style={{ backgroundImage: `url(${home_play1})`,backgroundSize:"cover",backgroundPosition: "50% 50%"}}>
+      <div className='w-full h-[400px] text-white mt-24 px-5 md:px-0' style={{ backgroundImage: `url(${home_play1})`,backgroundSize:"cover",backgroundPosition: "50% 50%"}}>
 
-       <div className='md:w-1/2  mx-auto  text-center md:pt-32 pt-20'>
+       <div className='md:w-1/2  mx-auto  text-center md:pt-32 pt-16'>
           <p className='font_poppins font-bold text-[30px]'>Watch Trust Activities Video Tour</p>
           <p className='font_poppins font-normal text-[18px] text-center '>Vmply dummy text of the printing and typesetting industryorem
           Ipsum industry's standard dum an unknowramble.</p>
@@ -124,9 +124,9 @@ function Home() {
       </div>
 
       {/* Our Activities */}
-      <div className='w-full md:p-20 p-7'>
+      <div className='w-full md:p-20 p-5'>
 
-        <h1 className='font_poppins text-[#30326B] font-semibold text-center md:text-[30px] text-[25px] underline md:mb-8 mb-4'>Our Activities</h1>
+        <h1 className='font_poppins text-[#30326B] font-semibold text-center text-xl sm:text-2xl md:text-3xl underline underline-offset-8 md:mb-8 mb-4'>Our Activities</h1>
         <p className='text-[#747373] font-normal md:text-[22px] text-[16px] text-center  mb-8 w-4/5 mx-auto'>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
         <HomeActivities />
 
