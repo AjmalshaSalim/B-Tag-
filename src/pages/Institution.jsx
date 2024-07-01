@@ -1,8 +1,19 @@
 import React from 'react'
+import InstitutionCards from '../components/institution/InstitutionCards'
 
 function Institution() {
   return (
-    <div>Institution</div>
+    <div className='container mx-auto overflow-hidden'>
+         <div>
+              <div className='m-8 '>
+                <h1 className='md:text-3xl sm:text-2xl text-xl font-bold   text-[#585858] underline-with-space font_poppins ml-[90px]'>Institutions</h1>
+              </div>
+
+              <div className='px-[50px] '>
+                <InstitutionCards/>
+              </div>
+         </div>
+    </div>
   )
 }
 

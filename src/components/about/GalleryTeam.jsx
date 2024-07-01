@@ -42,7 +42,33 @@ function GalleryTeam() {
       </div>
     ))}
   </div>
+
+//   <div className="flex overflow-x-auto space-x-4 py-4">
+//   {images.map((image) => (
+//     <div
+//       key={image.id}
+//       className={`relative flex-shrink-0 transition-all duration-300  h-[400px] cursor-pointer  ${ selectedImage?.id === image.id ? 'w-full sm:w-[300px] md:w-[300px] lg:w-[300px] xl:w-[300px]' : 'w-[100px]'
+//            }`}
+//       onClick={() => handleImageClick(image)}
+//     >
+//       <img
+//         src={image.src}
+//         alt={image.title}
+//         className="w-full h-full object-cover"
+//       />
+//       {selectedImage?.id === image.id && (
+//         <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
+//           <h2 className="text-xl font-bold">{selectedImage.title}</h2>
+//           <p className="mt-1">{selectedImage.description}</p>
+//         </div>
+//       )}
+//     </div>
+//   ))}
+// </div>
+
   )
 }
 
 export default GalleryTeam
+
+
