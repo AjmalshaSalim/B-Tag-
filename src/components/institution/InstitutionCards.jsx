@@ -8,40 +8,53 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import './institutionCards.css'; 
 
+
 const cardData = [
   {
-    id:1,
+    id: 1,
     imageUrl: 'https://images.pexels.com/photos/6457579/pexels-photo-6457579.jpeg?auto=compress&cs=tinysrgb&w=600',
-    title: 'Cert IV in Leadership & Management ',
-    introduction: 'Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country... ',
-    description:"Lorem ipsum dolor sit amet consectetur. Purus rhoncus feugiat pellentesque vel eget aliquet egestas non dignissim.In convallis platea mi habitant. Velit a at dictum commodo lacus fermentum. Lorem erat in dolor cursus sollicitudinin dignissim consectetur sit. A ac neque habitant aenean tortor. Hendrerit tempor mattis nunc enim enim. Nulla sitmassa lectus urna. Donec vivamus pretium sapien eget posuere pellentesque tempor id. Commodo molestieinteger vel sed eleifend. Volutpat in convallis tempus morbi est varius habitasse sagittis. Posuere commodo.Lorem ipsum dolor sit amet consectetur. In viverra tincidunt accumsan arcu accumsan nam. Morbi non feugiatelementum sagittis. Sed felis et eu sed felis ligula id ut. Turpis curabitur turpis tortor varius. Vel aliquam nisl gravidaenim. Elit nunc tempor tempor viverra odio habitasse blandit turpis in. Pulvinar diam vestibulum amet nuncpellentesque. Viverra egestas rutrum mi gravida et. Pharetra ullamcorper elit mattis convallis dignissim eu dignissimrhoncus fermentum. Sagittis morbi tempor lectus leo volutpat maecenas sagittis. Maecenas risus velit sollicitudin.",
+    title: 'Cert IV in Leadership & Management  ',
+    introduction: 'Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country  A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country... ',
+    description: "Lorem ipsum dolor sit amet consectetur. Purus rhoncus feugiat pellentesque vel eget aliquet egestas non dignissim.In convallis platea mi habitansim.In convallis platea mi habitant. Velit a at dictum commodo lacus fermentum. Lorem erat in dolor cursus sollicitudinin dignissim consectetur sit. A ac neque habitant aenean tortor. Hendrerit tempor mattis nunc enim enim. Nulla sitmassa lectus urna. Donec vivamus pretium sapien eget posuere pellentesque tempor id. Commodo molestieinteger vel t.\n\nVelitsim.In convallis platea mi habitant. Velit a at dictum commodo lacus fermentum. Lorem erat in dolor cursus sollicitudinin dignissim consectetur sit. A ac neque habitant aenean tortor. Hendrerit tempor mattis nunc enim enim. Nulla sitmassa lectus urna. Donec vivamus pretium sapien eget posuere pellentesque tempor id. Commodo molestieinteger vel  a at dictum commodo lacus fermentum. Lorem erat in dolor cursus sollicitudinin dignissim consectetur sit. A ac neque habitant aenean tortor.\n\nHendrerit tempor mattis nunc enim enim. Nulla sitmassa lectus urna. Donec vivamus pretium sapien eget posuere pellentesqsim.In convallis platea mi habitant. Velit a at dictum commodo lacus fermentum. Lorem erat in dolor cursus sollicitudinin dignissim consectetur sit. A ac neque habitant aenean tortor. Hendrerit tempor mattis nunc enim enim. Nulla sitmassa lectus urna. Donec vivamus pretium sapien eget posuere pellentesque tempor id. Commodo molestieinteger vel ue tempor id. Commodo molestieinteger vel sed eleifend.",
+    address: '123 Leadership St, Management City, LM 12345'
   },
   {
-    id:2,
+    id: 2,
     imageUrl: 'https://images.pexels.com/photos/6457544/pexels-photo-6457544.jpeg?auto=compress&cs=tinysrgb&w=600',
-    title: 'Cert IV in communication & Digital Marketing ',
-    introduction: 'Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country ...',
-    description:"Lorem ipsum dolor sit amet consectetur. Purus rhoncus feugiat pellentesque vel eget aliquet egestas non dignissim.In convallis platea mi habitant. Velit a at dictum commodo lacus fermentum. Lorem erat in dolor cursus sollicitudinin dignissim consectetur sit. A ac neque habitant aenean tortor. Hendrerit tempor mattis nunc enim enim. Nulla sitmassa lectus urna. Donec vivamus pretium sapien eget posuere pellentesque tempor id. Commodo molestieinteger vel sed eleifend. Volutpat in convallis tempus morbi est varius habitasse sagittis. Posuere commodo.Lorem ipsum dolor sit amet consectetur. In viverra tincidunt accumsan arcu accumsan nam. Morbi non feugiatelementum sagittis. Sed felis et eu sed felis ligula id ut. Turpis curabitur turpis tortor varius. Vel aliquam nisl gravidaenim. Elit nunc tempor tempor viverra odio habitasse blandit turpis in. Pulvinar diam vestibulum amet nuncpellentesque. Viverra egestas rutrum mi gravida et. Pharetra ullamcorper elit mattis convallis dignissim eu dignissimrhoncus fermentum. Sagittis morbi tempor lectus leo volutpat maecenas sagittis. Maecenas risus velit sollicitudin.",
+    title: 'Cert IV in Communication  ',
+    introduction: 'Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country  ...',
+    description: "Lorem ipsum dolor sit amet consectetur. Purus rhoncus feugiat pellentesque vel eget aliquet egestas non dignissim.In convallis platea mi habitansim.In convallis platea mi habitant. Velit a at dictum commodo lacus fermentum. Lorem erat in dolor cursus sollicitudinin dignissim consectetur sit. A ac neque habitant aenean tortor. Hendrerit tempor mattis nunc enim enim. Nulla sitmassa lectus urna. Donec vivamus pretium sapien eget posuere pellentesque tempor id. Commodo molestieinteger vel t.\n\nVelitsim.In convallis platea mi habitant. Velit a at dictum commodo lacus fermentum. Lorem erat in dolor cursus sollicitudinin dignissim consectetur sit. A ac neque habitant aenean tortor. Hendrerit tempor mattis nunc enim enim. Nulla sitmassa lectus urna. Donec vivamus pretium sapien eget posuere pellentesque tempor id. Commodo molestieinteger vel  a at dictum commodo lacus fermentum. Lorem erat in dolor cursus sollicitudinin dignissim consectetur sit. A ac neque habitant aenean tortor.\n\nHendrerit tempor mattis nunc enim enim. Nulla sitmassa lectus urna. Donec vivamus pretium sapien eget posuere pellentesqsim.In convallis platea mi habitant. Velit a at dictum commodo lacus fermentum. Lorem erat in dolor cursus sollicitudinin dignissim consectetur sit. A ac neque habitant aenean tortor. Hendrerit tempor mattis nunc enim enim. Nulla sitmassa lectus urna. Donec vivamus pretium sapien eget posuere pellentesque tempor id. Commodo molestieinteger vel ue tempor id. Commodo molestieinteger vel sed eleifend.",
+    address: '456 Marketing Blvd, Communication Town, CD 45678'
   },
   {
-    id:3,
+    id: 3,
     imageUrl: 'https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=600',
-    title: 'Cert IV Hospitality ',
-    introduction: 'Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country ...',
-    description:"Lorem ipsum dolor sit amet consectetur. Purus rhoncus feugiat pellentesque vel eget aliquet egestas non dignissim.In convallis platea mi habitant. Velit a at dictum commodo lacus fermentum. Lorem erat in dolor cursus sollicitudinin dignissim consectetur sit. A ac neque habitant aenean tortor. Hendrerit tempor mattis nunc enim enim. Nulla sitmassa lectus urna. Donec vivamus pretium sapien eget posuere pellentesque tempor id. Commodo molestieinteger vel sed eleifend. Volutpat in convallis tempus morbi est varius habitasse sagittis. Posuere commodo.Lorem ipsum dolor sit amet consectetur. In viverra tincidunt accumsan arcu accumsan nam. Morbi non feugiatelementum sagittis. Sed felis et eu sed felis ligula id ut. Turpis curabitur turpis tortor varius. Vel aliquam nisl gravidaenim. Elit nunc tempor tempor viverra odio habitasse blandit turpis in. Pulvinar diam vestibulum amet nuncpellentesque. Viverra egestas rutrum mi gravida et. Pharetra ullamcorper elit mattis convallis dignissim eu dignissimrhoncus fermentum. Sagittis morbi tempor lectus leo volutpat maecenas sagittis. Maecenas risus velit sollicitudin.",
+    title: 'Cert IV in Hospitality ',
+    introduction: 'SSeparated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country  A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country......',
+    description: "Lorem ipsum dolor sit amet consectetur. Purus rhoncus feugiat pellentesque vel eget aliquet egestas non dignissim.In convallis platea mi habitansim.In convallis platea mi habitant. Velit a at dictum commodo lacus fermentum. Lorem erat in dolor cursus sollicitudinin dignissim consectetur sit. A ac neque habitant aenean tortor. Hendrerit tempor mattis nunc enim enim. Nulla sitmassa lectus urna. Donec vivamus pretium sapien eget posuere pellentesque tempor id. Commodo molestieinteger vel t.\n\nVelitsim.In convallis platea mi habitant. Velit a at dictum commodo lacus fermentum. Lorem erat in dolor cursus sollicitudinin dignissim consectetur sit. A ac neque habitant aenean tortor. Hendrerit tempor mattis nunc enim enim. Nulla sitmassa lectus urna. Donec vivamus pretium sapien eget posuere pellentesque tempor id. Commodo molestieinteger vel  a at dictum commodo lacus fermentum. Lorem erat in dolor cursus sollicitudinin dignissim consectetur sit. A ac neque habitant aenean tortor.\n\nHendrerit tempor mattis nunc enim enim. Nulla sitmassa lectus urna. Donec vivamus pretium sapien eget posuere pellentesqsim.In convallis platea mi habitant. Velit a at dictum commodo lacus fermentum. Lorem erat in dolor cursus sollicitudinin dignissim consectetur sit. A ac neque habitant aenean tortor. Hendrerit tempor mattis nunc enim enim. Nulla sitmassa lectus urna. Donec vivamus pretium sapien eget posuere pellentesque tempor id. Commodo molestieinteger vel ue tempor id. Commodo molestieinteger vel sed eleifend.",
+    address: '789 Hospitality Ave, Hotel City, HP 78910'
   },
   {
-    id:4,
+    id: 4,
     imageUrl: 'https://images.pexels.com/photos/14031189/pexels-photo-14031189.jpeg?auto=compress&cs=tinysrgb&w=600',
-    title: 'Cert IV Hospitality ',
-    introduction: 'Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country ...',
-    description:"Lorem ipsum dolor sit amet consectetur. Purus rhoncus feugiat pellentesque vel eget aliquet egestas non dignissim.In convallis platea mi habitant. Velit a at dictum commodo lacus fermentum. Lorem erat in dolor cursus sollicitudinin dignissim consectetur sit. A ac neque habitant aenean tortor. Hendrerit tempor mattis nunc enim enim. Nulla sitmassa lectus urna. Donec vivamus pretium sapien eget posuere pellentesque tempor id. Commodo molestieinteger vel sed eleifend. Volutpat in convallis tempus morbi est varius habitasse sagittis. Posuere commodo.Lorem ipsum dolor sit amet consectetur. In viverra tincidunt accumsan arcu accumsan nam. Morbi non feugiatelementum sagittis. Sed felis et eu sed felis ligula id ut. Turpis curabitur turpis tortor varius. Vel aliquam nisl gravidaenim. Elit nunc tempor tempor viverra odio habitasse blandit turpis in. Pulvinar diam vestibulum amet nuncpellentesque. Viverra egestas rutrum mi gravida et. Pharetra ullamcorper elit mattis convallis dignissim eu dignissimrhoncus fermentum. Sagittis morbi tempor lectus leo volutpat maecenas sagittis. Maecenas risus velit sollicitudin.",
+    title: 'Cert IV in Hospitality ',
+    introduction: 'Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country  A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country...',
+    description: "Lorem ipsum dolor sit amet consectetur. Purus rhoncus feugiat pellentesque vel eget aliquet egestas non dignissim.In convallis platea mi habitansim.In convallis platea mi habitant. Velit a at dictum commodo lacus fermentum. Lorem erat in dolor cursus sollicitudinin dignissim consectetur sit. A ac neque habitant aenean tortor. Hendrerit tempor mattis nunc enim enim. Nulla sitmassa lectus urna. Donec vivamus pretium sapien eget posuere pellentesque tempor id. Commodo molestieinteger vel t.\n\nVelitsim.In convallis platea mi habitant. Velit a at dictum commodo lacus fermentum. Lorem erat in dolor cursus sollicitudinin dignissim consectetur sit. A ac neque habitant aenean tortor. Hendrerit tempor mattis nunc enim enim. Nulla sitmassa lectus urna. Donec vivamus pretium sapien eget posuere pellentesque tempor id. Commodo molestieinteger vel  a at dictum commodo lacus fermentum. Lorem erat in dolor cursus sollicitudinin dignissim consectetur sit. A ac neque habitant aenean tortor.\n\nHendrerit tempor mattis nunc enim enim. Nulla sitmassa lectus urna. Donec vivamus pretium sapien eget posuere pellentesqsim.In convallis platea mi habitant. Velit a at dictum commodo lacus fermentum. Lorem erat in dolor cursus sollicitudinin dignissim consectetur sit. A ac neque habitant aenean tortor. Hendrerit tempor mattis nunc enim enim. Nulla sitmassa lectus urna. Donec vivamus pretium sapien eget posuere pellentesque tempor id. Commodo molestieinteger vel ue tempor id. Commodo molestieinteger vel sed eleifend.",
+    address: '1011 Hospitality St, Resort Town, HP 10112'
   },
-  
 ];
 
 
+
+
 function InstitutionCards() {
+
+  const truncateContent = (content, maxLength) => {
+    if (content.length > maxLength) {
+      return content.substring(0, maxLength) + '...';
+    }
+    return content;
+  };
 
   const navigate=useNavigate()
 
@@ -82,7 +95,7 @@ function InstitutionCards() {
               <div className='p-4 '>
               <h1 className='lg:text-lg 2xl:text-xl sm:text-md  text-sm font-semibold mt-4 text-[#67A800] font_poppins  
                 leading-6 min-h-[50px] '>{card.title}</h1>
-              <p className='text-base text-[#706E6E] mt-2 font_poppins font-normal  leading-5'>{card.introduction}</p>
+              <p className='text-base text-[#706E6E] mt-2 font_poppins font-normal  leading-5'> {truncateContent(card.introduction, 100)}</p>
               </div>
               
             </div>
