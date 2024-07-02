@@ -51,7 +51,7 @@ return (
       <div className='bg-white w-full md:px-40 px-8 py-7'>
         <p className='font_poppins font-bold capitalize underline-with-space text-[#585858]  md:text-3xl text-2xl md:mb-7'>contact</p>
       </div>
-      <div className='w-full  flex flex-wrap items-center md:justify-around justify-start px-16 md:px-44 py-24 bg-[#364E09] opacity-70%' style={{ backgroundImage: url(${banner_3}),backgroundSize:"cover",backgroundPosition: "65% 35%"}}>
+      <div className='w-full  flex flex-wrap items-center md:justify-around justify-start px-16 md:px-44 py-24 bg-[#364E09] opacity-70%' style={{ backgroundImage: `url(${banner_3})`,backgroundSize:"cover",backgroundPosition: "65% 35%"}}>
 
         <div className='text-white  md:mb-0 mb-8'>
           <p className='font-semibold font_poppins text-[30px] md:text-[37px]'><LocalPhoneIcon style={{fontSize:"40px"}}/> Phone</p>
