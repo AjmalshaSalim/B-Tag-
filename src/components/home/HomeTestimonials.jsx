@@ -31,8 +31,8 @@ return (
     <div className='w-full bg-white p-7 md:p-24'>
       <div className='w-full bg-[#30326B] rounded-2xl p-7 md:p-24'>
         <div className='flex items-center justify-between mb-10'>
-          <h1 className='text-white font_poppins text-xl sm:text-2xl  md:text-3xl'>We Believe in People We Trust</h1>
-          <p className='text-white font_poppins text-xl sm:text-2xl  md:text-3xl flex items-center gap-1'>See All <ArrowForwardIcon style={{ fontSize: "32px" }} /></p>
+          <h1 className='text-white font_poppins text-xl sm:text-2xl  md:text-3xl font-bold'>We Believe in People We Trust</h1>
+          <p className='text-white font_poppins text-base sm:text-2xl  md:text-3xl flex items-center md:gap-1 '>See All <ArrowForwardIcon className='' style={{ fontSize: "30px" }} /></p>
         </div>
         
         <div className='home-testimonials-slider'>
