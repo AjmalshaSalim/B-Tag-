@@ -9,7 +9,7 @@ import home_play1 from '../assets/home_play1.png'
 import HomeActivities from '../components/home/HomeActivities'
 import HomeTestimonials from '../components/home/HomeTestimonials';
 import homeicon from '../assets/homeicon.png'
-
+import InstitutionCards from '../components/home/InstitutionCard';
 
 function Home() {
   return (
@@ -131,6 +131,9 @@ function Home() {
         <HomeActivities />
 
       </div>
+        {/* InstitutionCard */}
+        <InstitutionCards/>
+
 
       {/* Testimonials */}
       <HomeTestimonials/>

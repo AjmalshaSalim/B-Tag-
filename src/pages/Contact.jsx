@@ -159,8 +159,8 @@ return (
             onChange={handleChange}
             required />
 
-                  <div className=' flex gap-3'>
-                    <input className='lg:w-[317px] w-[320px] bg-[#F2F2F2] rounded-xl p-5 mb-4 font_poppins outline-0' type="email" name='email' placeholder='Your Email' value={formData.email}
+                  <div className=' flex flex-wrap lg:w-[650px] w-[320px] gap-3'>
+                    <input className=' lg:w-[317px] w-[320px] bg-[#F2F2F2] rounded-xl p-5 mb-4 font_poppins outline-0' type="email" name='email' placeholder='Your Email' value={formData.email}
           onChange={handleChange}
           required />
   

@@ -17,13 +17,12 @@ function Header() {
   };
 
   return (
-    <div className='overflow-x-hidden'>
+    <div className='overflow-x-hidden overflow-y-hidden'>
 
-        <div className='w-full h-[25px] bg-[#81D002] text-white font_poppins text-[12px] flex items-center px-32 justify-end' >
-          <p>+953 012 3654 896 support@thivi.com </p>
-        </div> 
-
-
+          <div className='w-full h-[0px] md:h-[25px] flex bg-[#81D002] text-white font_poppins text-[12px] items-center px-32 justify-end' >
+            <p>+953 012 3654 896 support@thivi.com </p>
+          </div> 
+   
       {/* MainHeader */}
           <div className='min-h-[80px] grid sm:grid-cols-12 sm:w-auto w-full shadow-lg'>
             {/* titleSection */}
