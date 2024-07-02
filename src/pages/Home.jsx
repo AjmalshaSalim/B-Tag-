@@ -33,8 +33,8 @@ function Home() {
       </div>
 
       {/* 4 cards */}
-      <div className='hidden md:inline-block'>
-        <div className='w-full flex flex-wrap items-center justify-evenly px-44 gap-0 absolute top-[585px] z-10 '>
+      <div className='hidden xl:inline-block'>
+        <div className='w-full flex  items-center justify-evenly px-44 gap-0 absolute top-[585px] z-10 '>
           <div className='w-[220px] h-[220px] shadow-xl bg-[#FCFFF6] rounded-3xl p-8'>
               <h4 className='text-[#3E5C05] font_poppins text-[20px]  font-normal'>lorem ipsum</h4>
               <p className='text-[#A4A4A4] font_poppins text-[14px]font-normal'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quis veritatis.</p>
