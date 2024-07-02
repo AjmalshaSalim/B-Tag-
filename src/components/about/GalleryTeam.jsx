@@ -12,7 +12,7 @@ const images = [
 
 function GalleryTeam() {
 
-    const [selectedImage, setSelectedImage] = useState(null);
+    const [selectedImage, setSelectedImage] = useState(images[0]);
 
     const handleImageClick = (image) => {
       setSelectedImage(image);
