@@ -131,6 +131,7 @@ function Home() {
         <HomeActivities />
 
       </div>
+      
         {/* InstitutionCard */}
         <InstitutionCards/>
 
