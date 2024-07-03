@@ -52,7 +52,7 @@ function NewsSection() {
             
             {data.slice(0,2).map((each,index)=>(
                 <Link to={'/newsandevents'}>
-                    <div className='lg:w-[400px] 2xl:w-[600px] w-full  overflow-hidden  ' key={index} >
+                    <div className='lg:w-[400px] 2xl:w-[550px] w-full  overflow-hidden  ' key={index} >
                     <img 
                         src={each.imageUrl}
                         alt="Sample Image" 

@@ -82,20 +82,17 @@ function CardDetail() {
 
               {/* card */}
               <div className=' md:p-6 p-2  '>
-                <div className='flex lg:flex-row flex-col   justify-center items-center lg:px-[100px] sm:px-[10px] px-[10px]  space-y-6 lg:space-x-4 lg:space-y-0  '>
+                <div className='flex lg:flex-row flex-col   justify-center items-center lg:px-[100px] sm:px-[10px] px-[10px]  gap-4  '>
 
-
-               
-
-               <div className='card bg-[#67A800] shadow-md rounded-md p-4 sm:w-[300px] w-full min-h-[200px] mx-auto'>
-                      <div className='flex justify-center'>
+               <div className='card bg-[#67A800] shadow-md rounded-md p-4 sm:w-[300px] w-full lg:h-[220px] h-[250px] mx-auto'>
+                      <div className='flex justify-center overflow-hidden'>
                         <img src={eduicon} alt='icon' className='w-12 h-12 mb-4' />
                       </div>
                       <h2 className='text-xl font-semibold mb-2 text-center text-white font_poppins'>Address</h2>
                       <p className=' text-center text-white font_poppins'>{card.address}</p>
                </div>
 
-               <div className='card bg-[#67A800] shadow-md rounded-md p-4 sm:w-[300px] w-full min-h-[200px] mx-auto'>
+               <div className='card bg-[#67A800] shadow-md rounded-md p-4 sm:w-[300px] w-full h-[220px] mx-auto'>
                       <div className='flex justify-center'>
                         <img src={eduicon} alt='icon' className='w-12 h-12 mb-4' />
                       </div>
