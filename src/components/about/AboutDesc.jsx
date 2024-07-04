@@ -18,7 +18,9 @@ function AboutDesc() {
 
         <div className='grid lg:grid-cols-2  '>
             <div className='p-4 '>
-                <p className='lg:ml-[60px] font_poppins font-[400px] 2xl:text-[18px] sm:text-[16px] text-[12px] leading-[33px] xl:leading-[35px] 2xl:leading-[40px] '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, cum explicabo. In, dolore! Cum commodi ipsam enim. Voluptas fuga repudiandae porro reprehenderit suscipit, perferendis perspiciatis voluptatum qui ut sequi ab!Loremorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, cum explicabo. In, dolore! Cum commodi ipsam en uptatum qui ut sequi ab!Loremorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, cum explicabo. In, doloi ut sequi ab!Loremorem ipsum d  !</p>
+                <p className='lg:ml-[60px] font_poppins font-[400px] 2xl:text-[18px] sm:text-[16px] text-[12px] leading-[33px] xl:leading-[35px] 2xl:leading-[40px] '>BTAG Global Educational Trust is an initiative to provide education and training by running offline programmes and institutions across India and online educational services across the Globe. To promote, establish, incorporate, support, maintain, sponsor, impart education and run organization, franchise institutions, establishments for imparting and providing of general, professional, vocational, technical and other form of education and their applications for the benefit of the public at large.
+               
+</p>
             </div>
 
 

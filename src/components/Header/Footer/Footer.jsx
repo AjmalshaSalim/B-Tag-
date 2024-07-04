@@ -20,7 +20,7 @@ const Footer = () => {
             
            </div>
             <p className='font_poppin text-justify text-[#D2D6CE] text-[15px] leading-6 mt-3 '>
-            We have been recruiting from the Culinary Arts for the past 4 years and I must say it has been a real pleasure to have the students on board.
+            An initiative to provide education and training by running offline programmes and institutions across India and online educational services across the Globe. 
             </p>
         </div>
         <div className='w-full md:w-[40%] lg:w-[15%]'>
@@ -41,7 +41,14 @@ const Footer = () => {
         </div>
         <div className='w-full md:w-[40%] lg:w-[30%]'>
             <ul className='font_poppins text-white leading-6  text-[15px]'>
-                <li className='font-semibold mb-5 mt-2'>Follow Us :   <FacebookRoundedIcon className='mb-1'/> <WhatsAppIcon className='mb-1'/> <YouTubeIcon className='mb-1'/> <InstagramIcon className='mb-1'/></li>
+            <li className='font-semibold mb-5 mt-2'>Follow Us : 
+
+            <a href=''><FacebookRoundedIcon className='mb-1 me-2 ms-2'/></a>
+            <a href=''><WhatsAppIcon className='mb-1 me-2'/></a>
+            <a href=''><YouTubeIcon className='mb-1 me-2'/></a>
+            <a href=''><InstagramIcon className='mb-1'/></a>
+      
+            </li>
                 <li className='font-semibold mb-5'>Contact : <span className='text-[#D2D6CE] font-normal'>9860879045</span> </li>
                 <li className='font-semibold '>Address : <span className='text-[#D2D6CE] font-normal'>Chyasundol - 06, Golfutar</span></li>
             </ul>
