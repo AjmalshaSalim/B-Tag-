@@ -89,7 +89,7 @@ const truncateContent = (content, maxLength) => {
 
       </Swiper>
       </div>
-  
+      
   )
 }
 
