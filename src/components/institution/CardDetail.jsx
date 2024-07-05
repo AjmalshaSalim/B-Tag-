@@ -58,7 +58,7 @@ function CardDetail() {
                 <img src={eduicon} alt='icon' className='w-12 h-12 mb-4' />
               </div>
               <h2 className='text-xl font-semibold mb-2 text-center text-white font_poppins'>Address</h2>
-              <p className='text-center text-white font_poppins'>{data.address}</p>
+              <p className='text-center text-white font_poppins text-sm  '>{data.address}</p>
             </div>
 
             <div className='card bg-[#67A800] shadow-md rounded-md p-4 sm:w-[300px] w-full h-[220px] mx-auto'>
