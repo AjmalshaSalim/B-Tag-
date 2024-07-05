@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import './homeactivities.css'; // Import the custom CSS file
+import './homeactivities.css';
 
 const dummyData = [
   {
@@ -49,7 +49,7 @@ const dummyData = [
 const HomeActivities = () => (
   <div className='w-full flex flex-wrap items-center justify-center gap-11'>
     <h1 className='font_poppins text-[#30326B] font-semibold text-center text-xl sm:text-2xl md:text-3xl underline underline-offset-8'>Our Activities</h1>
-    <p className='text-[#747373] font-normal md:text-[22px] text-[16px] text-center mb-2 md:mb-6 w-4/5 mx-auto'>BTAG Global Educational Trust provides quality education and training through offline programs in India and online services worldwide. We empower individuals with the knowledge and skills needed for success.</p>
+    <p className='text-[#747373] font-normal md:text-[22px] text-[16px] text-center px-22 mb-2 md:mb-3 w-full mx-auto'>BTAG Global Educational Trust provides quality education and training through offline programs in India and online services worldwide. We empower individuals with the knowledge and skills needed for success.</p>
 
     <Swiper
       className="home-activities-slider"
@@ -68,7 +68,7 @@ const HomeActivities = () => (
     >
       {dummyData.map((item) => (
         <SwiperSlide key={item.id}>
-          <div className='w-[300px] h-[360px] relative mx-auto mb-6'>
+          <div className='w-[300px] h-[380px] relative mx-auto mb-6 '>
             <img src={item.imageUrl} alt={item.name} className='w-full h-1/2 object-cover' />
             <h4 className='text-[#67A800] font_poppins text-[18px] font-semibold mt-4 px-3'>{item.name}</h4>
             <p className='text-[#706E6E] font_poppins text-[13px] font-normal mt-2 absolute bottom-4 px-3'>{item.description}</p>
