@@ -21,22 +21,22 @@ function Home() {
   const dummyData = [
     { 
       image: coaching,
-      title: 'Promotion and Provision of Education',
+      title: '⁠Empowering children to face the challenges of the 21st century',
       text: 'Support and establish schools, colleges, and training centers for diverse education.'
     },
     { 
       image: coaching,
-      title: 'Research and Consultancy',
+      title: '⁠Ensuring the wholistic development of  children',
       text: 'Conduct research, offer consultancy, and provide help for academic excellence.'
     },
     {
       image: coaching,
-      title: 'Publications and Educational Materials',
+      title: 'Empowering educators to bring out the best in the children',
       text: 'Publish books and digital content to enhance education quality and reach.'
     },
     {
       image: coaching,
-      title: 'Collaboration and Infrastructure',
+      title: 'Providing Quality Education for All : Empowering Future Generations',
       text: 'Collaborate with institutions and manage infrastructure for educational purposes.'
     },
   ];
@@ -65,10 +65,10 @@ function Home() {
       <div className='hidden xl:inline-block'>
     <div className='w-full flex items-center justify-evenly px-44 gap-0 absolute top-[585px] z-10'>
       {dummyData.map((data, index) => (
-        <div key={index} className='w-[220px] h-[220px] shadow-xl bg-[#FCFFF6] rounded-3xl p-8'>
+        <div key={index} className='w-[210px] h-[210px] shadow-xl bg-[#FCFFF6] rounded-3xl p-5 pt-8'>
           <img className='w-12 mx-auto' src={data.image} alt="" srcset="" />
-          <h4 className='text-[#3E5C05] font_poppins text-[14px] font-normal text-center mt-2'>{data.title}</h4>
-          <p className='text-[#A4A4A4] font_poppins text-[10px] font-normal mt-2'>{data.text}</p>
+          <h4 className='text-[#3E5C05] font_poppins text-[15px] font-normal text-center mt-2'>{data.title}</h4>
+          {/* <p className='text-[#A4A4A4] font_poppins text-[10px] font-normal mt-2'>{data.text}</p> */}
         </div>
       ))}
     </div>
@@ -148,11 +148,10 @@ function Home() {
       <div className='w-full h-[300px] md:h-[400px] text-white mt-24 px-5 md:px-0' style={{ backgroundImage: `url(${home_play1})`,backgroundSize:"cover",backgroundPosition: "50% 50%"}}>
 
        <div className='md:w-1/2  mx-auto  text-center md:pt-28 pt-16'>
-          <p className='font_poppins font-bold text-[22px] md:text-[30px]'>Watch Trust Activities Video Tour</p>
-          <p className='font_poppins font-normal text-[15px] md:text-[18px] text-center '>Vmply dummy text of the printing and typesetting industryorem
-          Ipsum industry's standard dum an unknowramble.</p>
+          <p className='font_poppins font-bold text-[21px] md:text-[30px] mb-1'>Watch Trust Activities Video Tour</p>
+          <p className='font_poppins font-normal text-[15px] md:text-[18px] text-center '>"Explore our educational trust tour video for an immersive experience in fostering learning and trust."</p>
           <a href='https://youtu.be/vxmSNvBhm9A?si=_jFdtJH8Ch8P0I5T' target='_blank'>
-          <img className='w-[42px] h-[42px] mx-auto mt-3' src={homeicon} alt="" srcset="" /></a>
+          <img className='w-[42px] h-[42px] md:w-[52px] md:h-[52px] mx-auto mt-3' src={homeicon} alt="" srcset="" /></a>
        </div>
 
        
