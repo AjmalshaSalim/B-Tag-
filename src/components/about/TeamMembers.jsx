@@ -22,7 +22,7 @@ function TeamMembers() {
 
            <div className='  mx-4 sm:mx-6 md:mx-8 lg:mx-10 xl:mx-12 2xl:mx-16 pt-[60px] mb-[50px]  '> 
             <p className='ml-4 sm:ml-6 md:ml-8 lg:ml-10 xl:ml-12 2xl:ml-14 text-black font_poppins text-[12px] sm:text-[14px]  lg:text-[16px] xl:text-[18px] font-light leading-relaxed sm:leading-loose'>
-            lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur libero, dolorem beatae eaque a aperiam reprehenderit iusto architecto neque asperiores vitae delectus distinctio ad atque id iure blanditiis alias perferendis?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur libero, dolorem beatae eaque a aperiam reprehenderit iusto architecto neque asperiores vitae delectus distinctio ad atque id iure blanditiis alias perferendis? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur libero, dolorem beatae eaque a aperiam reprehenderit iusto architecto neque asperiores vitae delectus distinctio ad atque id iure blanditiis alias perferendis?
+            we are proud to introduce the dedicated and passionate individuals who make our this a thriving educational community.  Our trust is supported by a group of dedicated professionals who are passionate about making a positive impact in our community. Each member of our team brings unique skills, expertise, and a commitment to our mission of fostering growth, support, and development. Comprised of experienced leaders from various fields, they ensure that our initiatives align with our mission and values. Their oversight and guidance are crucial in driving the trust forward and achieving our long-term goals.
             </p>
               
            </div>
