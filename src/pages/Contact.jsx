@@ -66,17 +66,17 @@ function Contact() {
 
         <div className='text-white  md:mb-0 mb-8'>
           <p className='font-semibold font_poppins text-[30px] md:text-[37px]'><LocalPhoneIcon style={{fontSize:"40px"}}/> Phone</p>
-          <p className='text-xl md:text-[22px] mt-3 font-light'>+1-2345-2345</p>
+          <p className='text-xl md:text-[22px] mt-3 font-light'>9895254510 / 8921076844</p>
         </div>
 
         <div className='text-white md:mb-0 mb-8'>
           <p className='font-semibold font_poppins text-[30px] md:text-[37px]'><EmailIcon style={{ fontSize: '40px' }} /> Email</p>
-          <p className='text-xl md:text-[22px] mt-3 font-light'>contact@thivi.com.au</p>
+          <p className='text-xl md:text-[22px] mt-3 font-light'>   info@btagglobal.com</p>
         </div>
 
         <div className='text-white mb-0'>
           <p className='font-semibold font_poppins text-[30px] md:text-[37px]'><LocationOnIcon style={{ fontSize: '40px' }} />Location</p>
-          <p className='text-xl md:text-[22px] mt-3 font-light'>&nbsp; Sydney, Australia</p>
+          <p className='text-xl md:text-[22px] mt-3 font-light'>Nirmalliam Edackode P.O. Korani, Attingal <br /> Thiruvananthapuram, Kerala-695104</p>
         </div>
       </div>
 
@@ -96,7 +96,7 @@ function Contact() {
             required
           />
 
-          <div className='flex gap-3'>
+          <div className='md:flex flex-none gap-3'>
             <input
               className='lg:w-[317px] w-[320px] bg-[#F2F2F2] rounded-xl p-5 mb-4 font_poppins outline-0'
               type="email"
@@ -127,19 +127,19 @@ function Contact() {
           ></textarea>
 
           {errorMessage && (
-            <div style={{ color: 'red', marginBottom: '15px' }}>
+            <div style={{ color: 'red', padding: '10px' }}>
               {errorMessage}
             </div>
           )}
           
           {successMessage && (
-            <div style={{ color: 'green', marginTop: '10px' }}>
+            <div style={{ color: 'green', padding: '10px' }}>
               {successMessage}
             </div>
           )}
 
           <button
-            className='lg:w-[645px] w-[320px] h-[67px] bg-[#30326B] text-white rounded-xl font_poppins md:text-[22px] font-bold'
+            className='lg:w-[645px] w-[320px] h-[67px] bg-[#30326B] text-white rounded-xl font_poppins md:text-[22px] font-bold '
             onClick={handleSubmit}
           >
             Subscribe
@@ -149,7 +149,7 @@ function Contact() {
 
       {/* map area */}
       <iframe
-        src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.492169300537!2d76.87736640000001!3d8.54858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bf9bca82635f%3A0x72d8ed7960ffc184!2sTechnopark%20Phase%203!5e0!3m2!1sen!2sin!4v1719554087304!5m2!1sen!2sin'
+        src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3944.2266988585925!2d76.83993797501462!3d8.669978391377722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwNDAnMTEuOSJOIDc2wrA1MCczMy4xIkU!5e0!3m2!1sen!2sin!4v1720507277424!5m2!1sen!2sin'
         style={{ height: '500px', border: '0' }}
         allowFullScreen=""
         loading="lazy"

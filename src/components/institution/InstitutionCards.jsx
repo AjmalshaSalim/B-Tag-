@@ -69,7 +69,7 @@ const truncateContent = (content, maxLength) => {
             <div className='flex flex-col items-center'>
               <div className='w-full h-[200px] overflow-hidden'>
                 <img
-                  src={data.imageUrl}
+                  src={`https://btagglobal.com/admin/uploads/institutions/${data.images}` ? `https://btagglobal.com/admin/uploads/institutions/${data.images}`.split(',')[0] : ''} 
                   alt={data.title}
                   className='w-full h-full object-cover'
                 />

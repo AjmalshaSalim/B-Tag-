@@ -92,9 +92,8 @@ function Event() {
                 <div className='md:w-1/2'>
                   <div className='w-full h-[300px] bg-red-600 overflow-hidden'>
                     <img
-                      // src={item.imageUrl}
-                      src={item.file}
-                      
+                      src=
+                      {`https://btagglobal.com/admin/uploads/forms/${item.file}` }
                       alt={`news${item.id}`}
                       className='w-full h-full object-cover'
                     />

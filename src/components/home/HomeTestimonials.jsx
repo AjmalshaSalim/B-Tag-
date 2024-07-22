@@ -27,6 +27,11 @@ function HomeTestimonials() {
     fetchEvents();
   }, []);
 
+  const truncateText = (text, limit) => {
+    const words = text.split(' ');
+    return words.length > limit ? words.slice(0, limit).join(' ') + '...' : text;
+  };
+
 return (
     <div className='w-full bg-white p-7 md:p-24'>
       <div className='w-full bg-[#30326B] rounded-2xl p-7 md:p-24'>
@@ -52,10 +57,11 @@ return (
 >
   {data.map((data,index) => (
     <SwiperSlide key={data.id}>
-      <div className='bg-white rounded-lg shadow-lg p-3 mb-20 h-[180px] relative'>
-        <p className='text-[#12141D] font_poppins font-normal text-[15px] mt-2'>{data.description}</p>
+      <div className='bg-white rounded-lg shadow-lg p-3 mb-20 h-[280px] relative'>
+        <p className='text-[#12141D] font_poppins font-normal text-[10px] md:text-[12px] mt-2'>{truncateText(data.description, 80)}</p>
         <div className='flex items-center justify-start absolute bottom-1'>
-          <img src={data.imageUrl} alt={data.name} className='w-[48px] h-[48px] object-cover rounded-full' />
+          <img src={`https://btagglobal.com/admin/uploads/testmonial/${data.image}`} alt={data.image} className='w-[48px] h-[48px] object-cover rounded-full' />
+          {/* data.imageUrl */}
           <div className='p-4'>
             <h3 className='text-[#000000] font_poppins text-xs font-bold'>{data.name}</h3>
             <p className='text-[#000000] font_poppins text-xs'>{data.designation}</p>

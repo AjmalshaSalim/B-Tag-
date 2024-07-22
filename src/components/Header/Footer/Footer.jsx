@@ -25,32 +25,36 @@ const Footer = () => {
         </div>
         <div className='w-full md:w-[40%] lg:w-[15%]'>
             <ul className='font_poppins text-white leading-6  text-[15px]'>
-                <li className='font-semibold mb-5 mt-2'>Community </li>
-                <li className='text-[#D2D6CE]'>Featured artists</li>
-                <li className='text-[#D2D6CE]'>The Portal</li>
-                <li className='text-[#D2D6CE]'>Live events</li>
+                <li className='font-semibold mb-5 mt-2'>Institutions </li>
+                <li className='text-[#D2D6CE]'>1. ARR Public School</li>
+                <li className='text-[#D2D6CE]'>2. Extra Mile Education & Training</li>
+                <li className='text-[#D2D6CE]'>3. BTAG WhatsApp community </li>
             </ul>
         </div>
         <div className='w-full md:w-[40%] lg:w-[10%]'>
             <ul className='font_poppins text-white leading-6 text-[15px]'>             
-                <li className='font-semibold mb-5 mt-2'>Company</li>
+                <li className='font-semibold mb-5 mt-2'>Community</li>
                 <li className='text-[#D2D6CE]'>About Us</li>
                 <li className='text-[#D2D6CE]'>Contact Us</li>
-                <li className='text-[#D2D6CE]'>History</li>
+                <li className='text-[#D2D6CE]'>Events</li>
             </ul>
         </div>
         <div className='w-full md:w-[40%] lg:w-[30%]'>
             <ul className='font_poppins text-white leading-6  text-[15px]'>
             <li className='font-semibold mb-5 mt-2'>Follow Us : 
 
-            <a href=''><FacebookRoundedIcon className='mb-1 me-2 ms-2'/></a>
-            <a href=''><WhatsAppIcon className='mb-1 me-2'/></a>
-            <a href=''><YouTubeIcon className='mb-1 me-2'/></a>
-            <a href=''><InstagramIcon className='mb-1'/></a>
+            <a href='https://www.facebook.com/ExtraMileET?mibextid=ZbWKwL' target='_blank'><FacebookRoundedIcon className='mb-1 me-2 ms-2'/></a>
+            <a href='' target='_blank'><WhatsAppIcon className='mb-1 me-2'/></a>
+            <a href='https://www.youtube.com/@extramileET' target='_blank'><YouTubeIcon className='mb-1 me-2'/></a>
+            <a href='' target='_blank'><InstagramIcon className='mb-1'/></a>
       
             </li>
-                <li className='font-semibold mb-5'>Contact : <span className='text-[#D2D6CE] font-normal'>9860879045</span> </li>
-                <li className='font-semibold '>Address : <span className='text-[#D2D6CE] font-normal'>Chyasundol - 06, Golfutar</span></li>
+                <li className='font-semibold mb-5'>Contact : <span className='text-[#D2D6CE] font-normal'>9895254510 / 8921076844</span> </li>
+                <li className='font-semibold '>Address : <span className='text-[#D2D6CE] font-normal'>
+B-TAG Global Educational Trust
+Nirmalliam Edackode P.O. Korani, Attingal 
+Thiruvananthapuram, Kerala-695104
+</span></li>
             </ul>
         </div>
 

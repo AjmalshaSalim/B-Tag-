@@ -34,14 +34,14 @@ function InstitutionCards() {
 
 
   return (
-    <div className='home-institution-slider py-10 px-7 md:px-28 bg-[#84AB3A26] relative'>
+    <div className='home-institution-slider py-10 px-7 md:px-16 bg-[#84AB3A26] relative'>
       <h1 className='text-center font_poppins font-semibold text-xl sm:text-2xl lg:text-3xl underline underline-offset-8 mb-10'>
         List of Institutions
       </h1>
 
       <Swiper
         modules={[Navigation, Autoplay]}
-        spaceBetween={-75}
+        spaceBetween={0}
         slidesPerView={3}
         navigation
         autoplay={{ delay: 2000 }}
@@ -59,13 +59,13 @@ function InstitutionCards() {
             spaceBetween: 0 
           },
         }}
-        className='flex items-center justify-evenly'>
+        className='flex items-center justify-evenly '>
         {data.map((data, index) => (
           <SwiperSlide key={index} >
-            <div className='p-4 mx-auto w-[300px] h-[500px]'>
+            <div className='p-4 mx-auto w-[270px] md:w-[300px] h-[] md:h-[500px] bg-slate-100'>
               <div className='w-full h-[225px] overflow-hidden'>
                 <img
-                  src={data.images ? data.images.split(',')[0] : ''} 
+                  src={`https://btagglobal.com/admin/uploads/institutions/${data.images}` ? `https://btagglobal.com/admin/uploads/institutions/${data.images}`.split(',')[0] : ''} 
                   alt={data.title}
                   className='w-full h-full object-cover rounded-xl'
                 />
