@@ -1,15 +1,15 @@
 import React from 'react'
+import member1 from '../../assets/member2.jpg'
 
 const images = [
-  { id: 1, src: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600', title: 'Alex jaco', description: 'This is Image 1' },
-  { id: 2, src: 'https://images.pexels.com/photos/1906157/pexels-photo-1906157.jpeg?auto=compress&cs=tinysrgb&w=600', title: 'Janna Kondeth', description: 'This is Image 2' },
-  { id: 3, src: 'https://images.pexels.com/photos/20881303/pexels-photo-20881303/free-photo-of-woman-sitting-on-the-grass-with-a-bouquet-of-flowers.jpeg?auto=compress&cs=tinysrgb&w=600', title: 'Cillian Murphy', description: 'This is Image 3' },
-  { id: 4, src: 'https://images.pexels.com/photos/20842140/pexels-photo-20842140/free-photo-of-portrait-of-brunette-woman.jpeg?auto=compress&cs=tinysrgb&w=600', title: 'Tom Hanks', description: 'This is Image 2' },
-  { id: 5, src: 'https://images.pexels.com/photos/26108564/pexels-photo-26108564/free-photo-of-portrait-of-blonde-woman-in-shadow.jpeg?auto=compress&cs=tinysrgb&w=600', title: 'Will Smith', description: 'This is Image 3' },
-  { id: 6, src: 'https://images.pexels.com/photos/12244376/pexels-photo-12244376.jpeg?auto=compress&cs=tinysrgb&w=600', title: 'Janna Kondeth', description: 'This is Image 6' }
-  // Add more images as needed
+  { id: 1, src: member1, title: 'Biju s pillai', description: 'Joint Director- BTAG Global Educational Trust' },
+  // { id: 2, src: 'https://images.pexels.com/photos/1906157/pexels-photo-1906157.jpeg?auto=compress&cs=tinysrgb&w=600', title: 'Janna Kondeth', description: 'This is Image 2' },
+  // { id: 3, src: 'https://images.pexels.com/photos/20881303/pexels-photo-20881303/free-photo-of-woman-sitting-on-the-grass-with-a-bouquet-of-flowers.jpeg?auto=compress&cs=tinysrgb&w=600', title: 'Cillian Murphy', description: 'This is Image 3' },
+  // { id: 4, src: 'https://images.pexels.com/photos/20842140/pexels-photo-20842140/free-photo-of-portrait-of-brunette-woman.jpeg?auto=compress&cs=tinysrgb&w=600', title: 'Tom Hanks', description: 'This is Image 2' },
+  // { id: 5, src: 'https://images.pexels.com/photos/26108564/pexels-photo-26108564/free-photo-of-portrait-of-blonde-woman-in-shadow.jpeg?auto=compress&cs=tinysrgb&w=600', title: 'Will Smith', description: 'This is Image 3' },
+  // { id: 6, src: 'https://images.pexels.com/photos/12244376/pexels-photo-12244376.jpeg?auto=compress&cs=tinysrgb&w=600', title: 'Janna Kondeth', description: 'This is Image 6' }
+  // // Add more images as needed
 ];
-
 
 function GalleryPhone() {
   return (
@@ -18,7 +18,7 @@ function GalleryPhone() {
       <div
         key={image.id}
         className={`relative   w-[220px]  sm:w-[400px]  md:w-[500px] 
-         h-[280px]`}
+         h-[400px]`}
        
       >
         <img
