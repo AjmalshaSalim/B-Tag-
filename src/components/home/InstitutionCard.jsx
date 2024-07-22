@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Navigation, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -32,11 +32,6 @@ function InstitutionCards() {
     fetchEvents();
   }, []);
 
-  const navigate = useNavigate();
-
-  const handleCardClick = (id) => {
-    navigate(`/card/${id}`);
-  };
 
   return (
     <div className='home-institution-slider py-10 px-7 md:px-28 bg-[#84AB3A26] relative'>
@@ -66,24 +61,25 @@ function InstitutionCards() {
         }}
         className='flex items-center justify-evenly'>
         {data.map((data, index) => (
-          <SwiperSlide key={index} onClick={() => handleCardClick(data.id)}>
-            <div className='p-4 mx-auto w-[300px] h-[520px]'>
+          <SwiperSlide key={index} >
+            <div className='p-4 mx-auto w-[300px] h-[500px]'>
               <div className='w-full h-[225px] overflow-hidden'>
                 <img
                   src={data.images ? data.images.split(',')[0] : ''} 
                   alt={data.title}
                   className='w-full h-full object-cover rounded-xl'
                 />
+                {/* <img className='w-full h-full object-cover ' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwSXWBEyDrEA-AImvsnc-sOEjpCwYBQSAQBg&s" alt="" srcset="" /> */}
               </div>
-              <p className='font_poppins font-semibold text-[19px] mt-4 leading-7'>{data.title}</p>
-              <p className='font_poppins text-[#4D4A4A] text-[17px] absolute bottom-[150px]'>
-                <LocationOnIcon className='text-[#578d01] font-medium'/>{data.address}
+              <p className='font_poppins font-semibold text-[14px] md:text-[16px] mt-4 leading-6 ms-1'>{data.title}</p>
+              <p className='font_poppins text-[#4D4A4A] text-[14px]  w-[270px] absolute bottom-[77px] ms-1'>
+                <LocationOnIcon className='text-[#578d01] font-medium'/>{truncateText(data.address, 10)}
               </p>
-              <p className='text-[14px] w-[270px] text-justify text-[#505050] mt-2 font_poppins font-normal leading-5 absolute bottom-[88px]'>
+              {/* <p className='text-[14px] w-[270px] text-justify text-[#505050] mt-2 font_poppins font-normal leading-5 absolute bottom-[85px]'>
                 {truncateText(data.introduction, 24)}
-              </p>
-              <Link to={'/institutions'}>
-                <button className='font_poppins font-medium text-[15px] px-10 py-1 bg-[#578d01] rounded-lg absolute bottom-[42px] ms-[58px]'>
+              </p> */}
+              <Link to={`/card/${data.slug}`}>
+                <button className='font_poppins font-medium text-[15px] px-10 py-1 bg-[#578d01] rounded-lg absolute bottom-[20px] ms-[58px]'>
                   See more
                 </button>
               </Link>
