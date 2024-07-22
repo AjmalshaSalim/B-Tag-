@@ -29,7 +29,8 @@ function TeamMembers() {
 
 
            <div className=' mx-[100px]  flex justify-center items-center '>
-              {isXLarge ? <GalleryTeam /> : <GalleryPhone />}
+              {/* {isXLarge ? <GalleryTeam /> : <GalleryPhone />} */}
+                 <GalleryPhone/>
            </div>
     </div>
 </div>
