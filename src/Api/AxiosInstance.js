@@ -2,10 +2,12 @@ import axios from 'axios';
 
 
 const AxiosInstance = axios.create({
-    baseURL: 'http://localhost/BTAG/api', 
+    baseURL: 'https://admin.btagglobal.com/api', 
     headers: {
       'Content-Type': 'application/json'
     }
   });
 
   export default AxiosInstance;
+
+  // 'http://localhost/BTAG/api'

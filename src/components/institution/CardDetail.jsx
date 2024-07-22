@@ -31,7 +31,7 @@ function CardDetail() {
   const paragraphs = data.description?.split('\n\n');
   const imagesArray = data.images?.split(',');
   const secondImage = imagesArray && imagesArray.length > 1 ? imagesArray[1] : '';
-  console.log(imagesArray);
+  console.log("imgarray",imagesArray);
   console.log(secondImage);
   console.log(data);
 
@@ -47,7 +47,7 @@ function CardDetail() {
         
         <div
           className="h-[300px] overflow-hidden mb-[20px] bg-no-repeat bg-cover"
-          style={{ backgroundImage: `url(${secondImage})` }}
+          style={{ backgroundImage: `url(https://btagglobal.com/admin/uploads/institutions/${secondImage})` }}
         >
         </div>
 

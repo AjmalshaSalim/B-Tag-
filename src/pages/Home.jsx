@@ -6,7 +6,8 @@ import HomeSlide2 from '../components/home/HomeSlide2';
 import HomeSlide3 from '../components/home/HomeSlide3';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import home_about from '../assets/home_about.png'
+// import homeabout from '../assets/homeabout.jpeg'
+import homeabout from '../assets/homeabout.jpg'
 import home_play1 from '../assets/home_play1.png'
 import HomeActivities from '../components/home/HomeActivities'
 import HomeTestimonials from '../components/home/HomeTestimonials';
@@ -93,11 +94,11 @@ function Home() {
               Joint Director : Mr Biju s Pillai - CBSE school Principal <br />
                         Trustee :  Ms Bushra B.A. - CBSE school Principal</p>
               
-                        <button className='px-6 py-2.5 bg-[#67A800] rounded-full text-white font_poppins font-semibold text-[18px]'>Learn More</button>
+                       <Link to={'/about'}><button className='px-6 py-2.5 bg-[#67A800] rounded-full text-white font_poppins font-semibold text-[18px]'>Learn More</button></Link> 
             </div>
 
 
-            <img className='object-fill rounded-2xl w-[390px] h-[280px]' src={home_about} alt="" srcset="" />
+            <img className='object-fill rounded-2xl w-[390px] h-[280px]' src={homeabout} />
 
 
           </divs>

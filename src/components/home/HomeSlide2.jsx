@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function HomeSlide1() {
   return (
 <div className='relative'>
-  <div className='w-full h-[580px] p-10 md:p-36 relative  bg-[51%_0%] md:bg-[93%_7%]' style={{backgroundImage:`url(${homebanner2})`,backgroundSize:"cover"}}>
+  <div className='w-full h-[585px] p-10 md:p-36 relative  bg-[51%_0%] md:bg-[93%_7%]' style={{backgroundImage:`url(${homebanner2})`,backgroundSize:"cover"}}>
     <div className='absolute inset-0 bg-green-950 opacity-50'></div>
     <div className='relative w-full'>
       <h1 className='font_poppins font-bold text-white text-[28px] md:text-[50px] md:leading-[62px] mb-3 mt-[55px] md:mt-0 '>⁠Extra Mile Education and Training : Capacity Building Programmes for CBSE Educators</h1>

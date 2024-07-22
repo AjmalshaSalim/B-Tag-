@@ -20,7 +20,7 @@ function Header() {
     <div className='overflow-x-hidden overflow-y-hidden'>
 
           <div className='w-full h-[0px] md:h-[25px] flex bg-[#81D002] text-white font_poppins text-[12px] items-center px-32 justify-end' >
-            <p>+953 012 3654 896 support@thivi.com </p>
+            <p>Ph: 9895254510 / 8921076844&nbsp;&nbsp; info@btagglobal.com </p>
           </div> 
    
       {/* MainHeader */}
