@@ -36,7 +36,7 @@ function CardDetail() {
   console.log(data);
 
   return (
-    <div className='overflow-hidden px-[50px]'>
+    <div className='overflow-hidden px-[20px]'>
       <div className='md:px-[100px] px-[10px] py-[50px]'>
 
         <div className='mb-[20px]'>
@@ -46,7 +46,7 @@ function CardDetail() {
         </div>
         
         <div
-          className="h-[300px] overflow-hidden mb-[20px] bg-no-repeat bg-cover"
+          className="h-[400px] md:h-[700px] overflow-hidden mb-[-100px] md:mb-[20px] bg-no-repeat bg-contain mx-auto"
           style={{ backgroundImage: `url(https://btagglobal.com/admin/uploads/institutions/${secondImage})` }}
         >
         </div>
