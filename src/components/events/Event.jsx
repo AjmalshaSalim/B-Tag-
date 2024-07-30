@@ -1,56 +1,43 @@
-
-import React, { useCallback, useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react';
 import AxiosInstance from '../../Api/AxiosInstance';
 
-
-
-const itemsPerPage = 2; 
+const itemsPerPage = 2;
 
 function Event() {
-  const [data,setData]=useState([])
+  const [data, setData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  
- 
   const observer = useRef();
 
   const fetchData = async () => {
-        try {
-          const response = await AxiosInstance.get('/event');
-          console.log('API Response:', response.data); // Log the API response
-          setData(response?.data.event)
-        } catch (error) {
-          console.error('Error fetching data:', error);
-        }
-      };
-     
-
+    try {
+      const response = await AxiosInstance.get('/event');
+      console.log('API Response:', response.data); // Log the API response
+      setData(response?.data.event);
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  };
 
   useEffect(() => {
-    fetchData()
-    // const indexOfLastItem = currentPage * itemsPerPage;
-    // const newItems = data.slice(0, indexOfLastItem);
-    // setCurrentItems(newItems);
+    fetchData();
   }, []);
 
-
-
   return (
-    <div className='container mx-auto overflow-hidden px-20 m-10  '>
-      
-      
-        <h1 className='md:text-3xl sm:text-2xl text-xl font-bold mb-12  text-[#585858] underline-with-space font_poppins ml-4'>News & Events</h1>
-      <div className='flex flex-col gap-10 '  >
+    <div className='container mx-auto overflow-hidden px-4 md:px-20 m-10'>
+      <h1 className='md:text-3xl sm:text-2xl text-xl font-bold mb-12 text-[#585858] underline-with-space font_poppins ml-4'>
+        News & Events
+      </h1>
+      <div className='flex flex-col gap-10'>
         {data?.map((item, index) => (
-          <div key={item.id} className='flex flex-col md:flex-row gap-4 md:gap-10 p-4 '>
+          <div key={item.id} className='flex flex-col md:flex-row gap-4 md:gap-10 p-4'>
             {index % 2 === 0 ? (
               <>
                 <div className='md:w-1/2'>
-                  <div className='w-full h-[300px] bg-red-600 overflow-hidden'>
+                  <div className='w-full h-[300px] overflow-hidden'>
                     <img
-                      src=
-                      {`https://btagglobal.com/admin/uploads/forms/${item.file}` }
+                      src={`https://btagglobal.com/admin/uploads/forms/${item.file}`}
                       alt={`news${item.id}`}
-                      className='w-full h-full object-cover'
+                      className='w-full h-full object-contain'
                     />
                   </div>
                 </div>
@@ -60,6 +47,16 @@ function Event() {
                     {item?.description}
                   </p>
                   <p className='mt-4 text-[#B4B7C1]'>{item?.date}</p>
+                  {item.link && (
+                    <a
+                      href={item.link}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='mt-4 inline-block bg-[#73AB3A] text-white px-4 py-2 rounded'
+                    >
+                      View This
+                    </a>
+                  )}
                 </div>
               </>
             ) : (
@@ -70,14 +67,23 @@ function Event() {
                     {item.description}
                   </p>
                   <p className='mt-4 text-[#B4B7C1]'>{item.date}</p>
+                  {item.link && (
+                    <a
+                      href={item.link}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='mt-4 inline-block bg-[#73AB3A]  text-white px-4 py-2 rounded'
+                    >
+                       View This
+                    </a>
+                  )}
                 </div>
                 <div className='md:w-1/2 order-1 md:order-2'>
-                  <div className='w-full h-[300px] bg-red-600 overflow-hidden'>
-                  <img
-                      src=
-                      {`https://btagglobal.com/admin/uploads/forms/${item.file}` }
+                  <div className='w-full h-[300px] overflow-hidden'>
+                    <img
+                      src={`https://btagglobal.com/admin/uploads/forms/${item.file}`}
                       alt={`news${item.id}`}
-                      className='w-full h-full object-cover'
+                      className='w-full h-full object-contain'
                     />
                   </div>
                 </div>
@@ -86,16 +92,8 @@ function Event() {
           </div>
         ))}
       </div>
-
-
-     </div>
-  )
+    </div>
+  );
 }
 
-export default Event 
-
-
-
-
-
-
+export default Event;

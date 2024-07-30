@@ -51,7 +51,7 @@ function Header() {
                 <h3 className={`text-sm lg:text-lg uppercase font-light font_abeezee hover:text-[#73AB3A]  ${location.pathname==='/about'?"text-[#73AB3A] underline":" "}`}>About</h3>
               </Link>
               <Link to='/institution' onClick={closeMenu}>
-                <h3 className={`text-sm lg:text-lg uppercase font-light font_abeezee hover:text-[#73AB3A] ${location.pathname==='/institution'?"text-[#73AB3A] underline":" "}`}>institutions</h3>
+                <h3 className={`text-sm lg:text-lg uppercase font-light font_abeezee hover:text-[#73AB3A] ${location.pathname==='/institution'?"text-[#73AB3A] underline":" "}`}>Establishments</h3>
               </Link>
               <Link to='/newsandevents' onClick={closeMenu}>
                 <h3 className={`text-sm lg:text-lg uppercase font-light font_abeezee hover:text-[#73AB3A] ${location.pathname==='/newsandevents'?"text-[#73AB3A] underline":" "}`}>events</h3>
